@@ -4,8 +4,8 @@ Stack Used: MEAN (MongoDb, Express, AngularJs, NodeJs)
 How to setup the application :-
 
 1. Setup MongoDb instance :-
-    run >> mongod.exe --dbpath "c:\data" in one cmd prompt
-    run >> mongo in another cmd prompt
+    run >> mongod.exe --dbpath "c:\data" in one cmd prompt from bin dir
+    run >> mongo in another cmd prompt from bin dir
     
     create user database with following command 
         - use user
