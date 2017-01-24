@@ -35,5 +35,8 @@ Install the following things
     
     Open browser and go to **localhost:3000**
     
+    for admin console 
+    * **username** - admin
+    * **password** - admin
 
 
