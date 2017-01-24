@@ -21,16 +21,14 @@ Install the following things
     [NodeJS](https://nodejs.org/en/download/)
 
 ## Deployment
-
-1. After downloading above things, clone the repository.
-2. Run following command
-    * npm install
-3. Go to bin folder of mongoDB and run 
+1. Run following command
+    * npm install (in root folder where package.json file is present)
+2. Go to bin folder of mongoDB and run 
     * **mongod.exe --dbpath "c:\"** in one cmd prompt
     * **mongo.exe** in another cmd prompt
     * create a database using command 
         **use user**
-4. Go to your project folder and run 
+3. Go to your project folder and run 
     **npm start**
     
     Open browser and go to **localhost:3000**
@@ -38,5 +36,7 @@ Install the following things
     for admin console 
     * **username** - admin
     * **password** - admin
+    Updating it to use Firebase authentication. 
+    
 
 
