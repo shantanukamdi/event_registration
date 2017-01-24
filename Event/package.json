@@ -1,8 +1,21 @@
 {
-  "name": "LatitudeFintech",
-  "version": "0.0.0",
-  "private": true,
+  "name": "event_registration",
+  "version": "1.0.0",
+  "description": "Basic event registration app using MEAN stack",
+  "main": "app.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanukamdi/event_registration.git"
+  },
+  "keywords": [
+    "event",
+    "registration",
+    "MEAN"
+  ],
+    "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -15,5 +28,10 @@
     "morgan": "~1.7.0",
     "nodemon": "^1.11.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "author": "Shantanu Kamdi",
+  "bugs": {
+    "url": "https://github.com/shantanukamdi/event_registration/issues"
+  },
+  "homepage": "https://github.com/shantanukamdi/event_registration#readme"
 }
