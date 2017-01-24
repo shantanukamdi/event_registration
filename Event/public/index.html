@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app = "EventModule">
+<head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <title>Event Registration</title>
+
+</head>
+    
+<body>
+    
+    <div class = "container">
+        <div class = "jumbotron">
+            <h2>ABC Music Company</h2>
+        </div>
+        <ng-view></ng-view>
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.2.0/angularfire.min.js"></script>
+    <script src="main.js"></script>
+    <script src="partials/registration/registration.js"></script>
+    <script src="partials/success/success.js"></script>
+    <script src="partials/admin/admin.js"></script>
+    
+</body>
+</html>
