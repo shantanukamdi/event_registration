@@ -24,15 +24,16 @@ Install the following things
 
 1. After downloading above things, clone the repository.
 2. Run following command
-    npm install
+    * npm install
 3. Go to bin folder of mongoDB and run 
-    mongod.exe --dbpath "c:\" in one cmd prompt
-    mongo.exe in another cmd prompt
-    create a database using command - use user
+    * **mongod.exe --dbpath "c:\"** in one cmd prompt
+    * **mongo.exe** in another cmd prompt
+    * create a database using command 
+        **use user**
 4. Go to your project folder and run 
-    npm start
+    **npm start**
     
-    Open browser and go to localhost:3000
+    Open browser and go to **localhost:3000**
     
 
 
